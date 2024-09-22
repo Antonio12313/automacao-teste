@@ -1,12 +1,13 @@
 package test;
 
 import org.junit.Test;
+
 import static org.junit.Assert.assertEquals;
 
 public class TestandoCalculadora {
 
     @Test
-    public void SomandoDoisNumeros() {
+    public void testSomandoDoisNumeros() {
         Calculadora calculadora = new Calculadora();
         double soma = calculadora.Somar(20, 30);
         System.out.println(soma);
@@ -14,7 +15,7 @@ public class TestandoCalculadora {
     }
 
     @Test
-    public void MultiplicandoDoisNumeros() {
+    public void testMultiplicandoDoisNumeros() {
         Calculadora calculadora = new Calculadora();
         double multiplicacao = calculadora.Multiplicar(2.5, 10.0);
         System.out.println(multiplicacao);
