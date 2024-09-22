@@ -14,6 +14,6 @@ public class StringManipulatorTest {
 
     @Test
     public void testGetLength() {
-        assertEquals(3, manipulator.getLength("Ola"), "O tamanho tem que ser 3");
+        assertEquals(4, manipulator.getLength("Ola"), "O tamanho tem que ser 3");
     }
 }
