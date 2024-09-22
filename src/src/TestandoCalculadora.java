@@ -8,7 +8,7 @@ public class TestandoCalculadora {
         Calculadora calculadora = new Calculadora();
         double soma = calculadora.Somar(20, 30);
         System.out.println(soma);
-        assertEquals(50.0, soma, 0.0001);
+        assertEquals(1, soma, 0.0001);
     }
 
     @Test
