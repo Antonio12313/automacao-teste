@@ -9,7 +9,7 @@ public class StringManipulatorTest {
 
     @Test
     public void testConcatenate() {
-        assertEquals("OiMundo", manipulator.concatenate("Oi", "Mund"), "Concatenação falho");
+        assertEquals("OiMundo", manipulator.concatenate("Oi", "Mundo"), "Concatenação falho");
     }
 
     @Test
